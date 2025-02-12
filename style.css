@@ -80,13 +80,14 @@ ul li a:hover::after{
 
 .left-column,.right-column{
     flex-basis: 50%;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
-.right-column video{
+.right-column img{
     width: 800px;
     margin-right: 200px;
 }
+
 
 .left-column h1{
     font-size: 100px;
@@ -112,9 +113,42 @@ ul li a:hover::after{
     margin-bottom: 50px;
 }
 
-.left-column li{
-    font-size: 20px;
+.left-column p{
+    font-size: 25px;
     margin-left: 20px;
     margin-top: -20px;
     margin: 5px;
+}
+
+.Asal {
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.Asal p{
+    font-size: 25px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.contoh {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.contoh p{
+    font-size: 25px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.desk_contoh ,.foto_contoh {
+    flex: 50%;
+}
+
+.foto_contoh img{
+    width: 300px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
